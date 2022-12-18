@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Top Articles</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro%3A300%2C400%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C700"/>
+  <link rel="stylesheet" href="/css/top-articles.css"/>
+</head>
+<body>
+<div class="top-articles-A9x">
+  <div class="frame-5-Rbg">
+    <a href="/" class="geekyblog-kdx">GeekyBlog</a>
+    <div class="group-5-g1p">
+      <div class="frame-89-q9c">
+        <img class="search-N9Y" src="/img/search-mUa.png"/>
+        <input class="search-for-articles-6LS" type="text"/>
+      </div>
+    </div>
+    <div class="frame-5-kQz">
+      <!-- <a  href="/login" class="frame-6-JhQ">Login</a>
+      <a  href="/signup" class="frame-3-mqt">Register</a> -->
+    </div>
+  </div>
+  <div class="auto-group-xcjr-TCv">
+    <div class="frame-90-PcN">
+      <div class="frame-91-iPk">
+        <a href="/feeds" class="feeds-DrJ">Feeds</a>
+        <a href="/top" class="top-7wg">Top</a>
+        <% if (''.includes(obj)) { %>
+          <a href="/bookmarks" class="bookmarks-eRp">Bookmarks</a>
+          
+        <% } else { %>
+          <a href="/api/v1/users/bookmarks/<%= obj %>" class="bookmarks-eRp">Bookmarks</a>
+          <% } %> 
+        <a href="/about" class="about-aqG">About </a>
+        <div class="logout"></div>
+
+      </div>
+    </div>
+    <div class="frame-53-rnn">
+      <div class="frame-51-Nm8">
+        <p class="top-articles-vne">Top Articles</p>
+
+        <% var i = 0; articles.forEach(article => { %>
+        <div class="review--GLi">
+          <div class="frame-4-NuY">
+            <div class="frame-5-6Kk">
+              <p class="item-1-SeW">#<%= i %></p>
+              <!-- <div class="avatar-nCa">
+              </div> -->
+
+              <img class="avatar-nCa" src="/img/users/<%= article.user.photo %>"/>
+            </div>
+            <% if (typeof article.user !== 'undefined' && typeof article.user.name !== 'undefined') { %>
+              <div class="frame-6-Snv"><%= article.user.name %></div>
+
+            <% } else { %>
+              <div class="frame-6-Snv">Username</div>
+            <% } %> 
+          </div>
+          <a href="articles/<%= article.slug %>" class="frame-92-7PG"><%= article.title %></a>
+          <p class="item-01-10-2022-DhC"><%= article.createdAt.toLocaleDateString() %> </p>
+          <p class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-varius-nisi-et-mauris-iaculis-sed-elementum-magna-suscipit-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-j9k"><%= article.description %></p>
+        
+        </div>
+
+        <% i++; %>
+
+        <% }) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="./js/top.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+</body>

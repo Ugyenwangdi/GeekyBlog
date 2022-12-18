@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Post</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro%3A400%2C500%2C600%2C700"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/write-post.css"/>
+</head>
+<body>
+
+    <div class="write-post-YCm">
+
+      <section >
+
+      </section>
+
+        <div class="navbar-private-GuT">
+          <a href="/" class="geekyblog-NxV">GeekyBlog</a>
+          <div class="group-4-JbF">
+            <div class="frame-89-TDF">
+              <img class="search-PMo" src="/img/search-mUa.png"/>
+              <input class="search-for-articles-HCH" type="text"/>
+            </div>
+          </div>
+          <div class="frame-4-Y8D">
+            <div class="frame-6-5P3">
+              <img class="pencil-nYM" src="/img/pencil-F5p.png"/>
+              <a href="/articles/new" class="write-Wz9">Write</a>
+            </div>
+            <img class="user-RrD" src="/img/user-B7c.png"/>
+          </div>
+        </div>
+
+        <form action="/articles" method="POST" class="form-8kd">
+          <p class="new-post-SFX">New Post</p>
+          <div class="form-mHo">
+            <div>
+              <a href="/feeds" class="btn btn-secondary">All Articles</a>
+              <a href="/feeds" class="btn btn-info">Cancel</a>
+             </div>
+
+            <!-- <div class="cover-Vjb">
+              <p class="cover-image-4Xo">Cover image</p>
+              <img class="image-zgM" type="file"src="/img/image-6k8.png"/>
+              <input class="form__upload" type="file" accept="image/*" id="photo" name="photo"/><label for="photo">Choose new photo</label>
+            </div> -->
+            <div class="title-8nZ">
+              <p class="title-JS9">Title</p>
+              <input required value="<%= article.title %>" type="text" name="title" id="title" class="input-field-dzD" />
+            </div>
+            <div class="description-Zcy">
+              <p class="description-vTX">Description</p>
+              <input name="description" id="description" class="input-field-GGV" type="text" placeholder="<%= article.description %>"/>
+            </div>
+            <p class="content-CA9">Content</p>
+          </div>
+          <textarea required name="markdown" id="markdown" class="frame-63-YE1"><%= article.markdown %>
+          </textarea>
+          <button type="submit" class="login-btn-dFT">POST</button>
+        </form>
+      </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+
+
+</html>

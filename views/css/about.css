@@ -1,0 +1,506 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.about-5D8 {
+  box-sizing: border-box;
+  padding: 3.6rem 11.5rem 21.986rem 11.6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.about-5D8 .frame-5-e9k {
+  margin: 0rem 0rem 3.6rem 0.1rem;
+  height: 5.7rem;
+  display: flex;
+  column-gap: 4.85rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-5-e9k .geekyblog-PQA {
+  cursor: pointer;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.about-5D8 .frame-5-e9k .group-5-fMg {
+  width: 68rem;
+  height: 100%;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-5-e9k .group-5-fMg .frame-89-CMc {
+  box-sizing: border-box;
+  padding: 1.35rem 37.4rem 1.15rem 1.1rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #cfcfcf;
+  background-color: #f2f3f4;
+  border-radius: 1rem;
+}
+.about-5D8 .frame-5-e9k .group-5-fMg .frame-89-CMc .search-48v {
+  margin-right: 4.7rem;
+  width: 3.1rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-5-e9k .group-5-fMg .frame-89-CMc .search-for-articles-ymg {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  width: 57rem;
+  background: #f2f3f4;
+  border-radius: 4px;
+}
+.about-5D8 .frame-5-e9k .frame-6-2jx {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-5-e9k .frame-6-2jx .frame-6-Bcr {
+  margin-right: 2.4rem;
+  width: 11.3rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.about-5D8 .frame-5-e9k .frame-6-2jx .frame-3-Rn6 {
+  width: 13.9rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.about-5D8 .auto-group-nmhg-tQn {
+  margin: 0rem 0.6rem 3.914rem 0rem;
+  width: calc(100% - 0.6rem);
+  height: 112.3rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-90-nWA {
+  margin-right: 2.3rem;
+  box-sizing: border-box;
+  padding: 0.9rem 1.4rem 0rem 1.1rem;
+  width: 18rem;
+  height: 63.2rem;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem rgba(207, 207, 207, 0.5);
+  flex-shrink: 0;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-90-nWA .frame-91-5EN {
+  box-sizing: border-box;
+  padding: 3rem 0.5rem 42.7rem 0.5rem;
+  width: 100%;
+  height: 63.2rem;
+  overflow: hidden;
+  position: relative;
+  row-gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-90-nWA .frame-91-5EN .feeds-8yL {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-90-nWA .frame-91-5EN .top-UnJ {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-90-nWA .frame-91-5EN .bookmarks-Z34 {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-90-nWA .frame-91-5EN .about-Hze {
+  margin-left: 0.1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+  text-overflow: none;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx {
+  width: 100rem;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #f1f5fa 100%);
+  flex-shrink: 0;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE {
+  box-sizing: border-box;
+  padding: 0.5rem 2.062rem 14.4rem 6.35rem;
+  width: 86.5rem;
+  height: 86.4rem;
+  position: absolute;
+  left: 6.75rem;
+  top: 6.4rem;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE .frame-26-Qxn {
+  margin-bottom: 11.2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE .frame-26-Qxn .group-2-9fU {
+  margin-bottom: 4.6rem;
+  width: 100%;
+  height: 26rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE .frame-26-Qxn .group-2-9fU .rectangle-4-7u8 {
+  width: 51.6318rem;
+  height: 3.2755rem;
+  position: absolute;
+  left: 26.4566rem;
+  top: 4.9935rem;
+  background-color: #d4d5f6;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE .frame-26-Qxn .group-2-9fU .helping-people-in-tech-to-share-knowledge-easily-p2r {
+  width: 74.4rem;
+  height: 26rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.3500000238;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE .frame-26-Qxn .platform-where-developers-tech-lovers-and-content-creators-can-connect-to-share-about-challenges-overcome-in-solving-a-problem-or-sharing-their-journey-of-becoming-an-expert-at-what-they-do-hsL {
+  margin-right: 3.6884rem;
+  max-width: 66rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.4550000971;
+  color: #637286;
+  font-family: Readex Pro, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE .lorem-ipsum-6uU {
+  margin: 0rem 0rem 2rem 1.1rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.3500000636;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-51-uWE .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-porta-nibh-venenatis-cras-sed-felis-purus-semper-eget-duis-at-tellus-at-c78 {
+  margin-left: 0.9rem;
+  max-width: 70.2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333333;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-55-2Ar {
+  width: 70.2rem;
+  height: 18rem;
+  position: absolute;
+  left: 14.2rem;
+  top: 82.9rem;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-55-2Ar .lorem-ipsum-xKQ {
+  margin-bottom: 3.2rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1.3500000636;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-5D8 .auto-group-nmhg-tQn .frame-53-aTx .frame-55-2Ar .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-porta-nibh-venenatis-cras-sed-felis-purus-semper-eget-duis-at-tellus-at-VaE {
+  max-width: 70.2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333333;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.about-5D8 .frame-72-iC6 {
+  margin: 0rem 0.7rem 0rem 20.4rem;
+  width: calc(100% - 21.1rem);
+  height: 22.1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .geekyblog-EAS {
+  margin-right: 15.7rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-69-uXU {
+  margin-right: 6.4rem;
+  width: 30rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-69-uXU .community-Tot {
+  margin-bottom: 2.4rem;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.4550000704;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-69-uXU .frame-68-QDL {
+  width: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-69-uXU .frame-68-QDL .frame-66-Z6E {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-69-uXU .frame-68-QDL .frame-67-Ey4 {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-69-uXU .frame-68-QDL .frame-68-kAi {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-70-bx2 {
+  width: 30rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-70-bx2 .explore-YMU {
+  margin-bottom: 2.4rem;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.4550000704;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-70-bx2 .frame-68-56W {
+  width: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-70-bx2 .frame-68-56W .frame-66-2Ge {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-70-bx2 .frame-68-56W .frame-67-XjC {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.about-5D8 .frame-72-iC6 .frame-71-mRG .frame-70-bx2 .frame-68-56W .frame-68-qUz {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+
+
+
+
+
+.privatediv {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.writediv {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1.6rem 2.8rem;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #dee4ed;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.pencil {
+  margin-right: 1rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.writetext {
+  margin-bottom: 0.3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.user {
+  width: 3.8468rem;
+  height: 3.8468rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 2rem;
+  flex-shrink: 0;
+  text-decoration: none;
+}

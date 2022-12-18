@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>My bookmarks</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro%3A300%2C400%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C700"/>
+  <link rel="stylesheet" href="/css/bookmarks.css"/>
+</head>
+<body>
+<div class="bookmarks-Nkr">
+
+  <section >
+
+  </section>
+  <div class="navbar-private-5vA">
+    <a href="/" class="geekyblog-Pvr">GeekyBlog</a>
+    <div class="group-4-hwY">
+      <div class="frame-89-ern">
+        <img class="search-BLv" src="/img/search-mUa.png"/>
+        <input class="search-for-articles-JgS" type="text"/>
+      </div>
+    </div>
+    <div class="frame-4-nbc">
+      <div class="frame-6-Y4z">
+        <img class="pencil-H2a" src="/img/pencil-F5p.png"/>
+        <a href="#" class="write-p2W">Write</a>
+      </div>
+      <img class="user-upe" src="/img/user-B7c.png"/>
+    </div>
+  </div>
+  <div class="auto-group-qhau-RY6">
+    <div class="frame-90-9DC">
+      <div class="frame-91-4LA">
+        <a href="/feeds" class="feeds-Mq4">Feeds</a>
+        <a href="/top" class="top-htv">Top</a>
+        
+        <% if (''.includes(obj)) { %>
+            <a href="/bookmarks" class="bookmarks-dna">Bookmarks</a>
+            
+          <% } else { %>
+            <a href="/api/v1/users/bookmarks/<%= obj._id %>" class="bookmarks-dna">Bookmarks</a>
+            <% } %> 
+        <a href="/about" class="about-aC2">About </a>
+        <div class="logout"></div>
+
+      </div>
+    </div>
+    <div class="frame-53-GqY">
+      <div class="frame-51-1YE">
+        <p class="my-bookmarks-xyG">My Bookmarks</p>
+
+        <% bookmarks.forEach(article => { %>
+
+        <div class="review--63t">
+          <div class="frame-4-R6A">
+            <div class="frame-5-wqC">
+              <img class="avatar-Vri" src="/img/users/<%= article.user.photo %>"/>
+              <!-- </div> -->
+            </div>
+            <% if (typeof article.user !== 'undefined' && typeof article.user.name !== 'undefined') { %>
+                <div class="frame-6-BjY"><%= article.user.name %></div>
+            <% } else { %>
+                <div class="frame-6-BjY">Ugyen</div>
+            <% } %> 
+          </div>
+          <a href="/articles/<%= article.slug %>" class="frame-92-SfU" style="text-decoration: none;"><%= article.title %></a>
+          <p class="item-01-10-2022-MXY"><%= article.createdAt.toLocaleDateString() %> </p>
+          <p class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-varius-nisi-et-mauris-iaculis-sed-elementum-magna-suscipit-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-HAJ"><%= article.description %></p>
+        
+        
+          <% if (JSON.stringify(userId) === JSON.stringify(article.user['_id'])) { %>
+            <div class="operations">          
+              <a href="articles/edit/<%= article.id %>" class="btn btn-info">Edit</a>
+  
+              <form action="/articles/<%= article.id %>?_method=DELETE" method="POST" class="d-inline">
+                  <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+          </div>
+
+        <% } else { %>
+          <div class="frame-6-4Rk"></div>
+        <% } %> 
+        </div>
+
+        
+        <% }) %>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="module" src="./js/bookmarks.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+</body>

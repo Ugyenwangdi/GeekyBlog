@@ -1,0 +1,23 @@
+DATABASE = mongodb+srv://Agilegroup06:PASSWORD@cluster0.fqvtebd.mongodb.net/geekyblog?retryWrites=true&w=majority
+
+
+$ npm install util.promisify
+
+$ npm install cookie-parser
+
+$ npm i multer
+
+
+
+
+######## TODO ############
+
+- Article writer
+- User restricted roles
+- Home Article display
+- Profile UI 
+- Bookmarks -- for logged in users
+- Like 
+- Comment 
+- Search 
+- Verification - Signup

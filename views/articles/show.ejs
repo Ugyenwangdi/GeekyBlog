@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Article detail</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro%3A200%2C400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A200%2C400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C600"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/article-detail.css"/>
+</head>
+<body>
+<div class="article-detail-comment-GnP">
+
+  
+  <section >
+
+  </section>
+
+  <div class="frame-5-gqy">
+    <div class="auto-group-u2pk-B23">
+      <a href="/" class="geekyblog-TET">GeekyBlog</a>
+      <div class="group-5-Ymh">
+        <div class="frame-89-t4s">
+          <img class="search-nAF" src="/img/search-mUa.png"/>
+          <input class="search-for-articles-tUB" type="text"/>
+        </div>
+      </div>
+    </div>
+    <div class="frame-4-q23">
+      <div class="frame-6-kAw">
+        <img class="pencil-TLF" src="/img/pencil-F5p.png"/>
+        <p class="write-kaF">Write</p>
+      </div>
+      <img class="user-PNK" src="/img/user-B7c.png"/>
+    </div>
+  </div>
+  <div class="frame-26-ZQ7">
+    <p class="title-of-article-7iT"><%= article.title %></p>
+    <div class="text-muted mb-2">
+      <%= article.createdAt.toLocaleDateString() %>
+    </div>
+    <div>
+      <a href="/feeds" class="btn btn-secondary">All Articles</a>
+          
+     </div>
+    <!-- <div class="image-9QF">
+      <img class="vector-qH5" src="./assets/vector-zWf.png"/>
+    </div> -->
+  </div>
+
+  <div class="frame-55-YA7">
+    <p class="lorem-ipsum-dST"><%- article.sanitizedHtml %></p>  
+  </div>
+
+  <% if (likes.includes(userId) && bookmarks.includes(article._id)) { %>
+    <input type="hidden" id="liked"  value="true">
+    <input type="hidden" id="bookmarked"  value="true">
+
+    <div class="group-7-e3M">
+      <button class="like_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="love-2" src="/img/vector-Sb8.png"/></button>
+      <button class="comment_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="speech-VZm" src="/img/speech.png"/></button>
+      <button class="bookmark_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="bookmark-2" src="/img/bookmark.png"/></button>
+    </div>
+
+  <% } else if (likes.includes(userId)) { %>
+    <input type="hidden" id="liked"  value="true">
+    <input type="hidden" id="bookmarked"  value="false">
+
+    <div class="group-7-e3M">
+      <button class="like_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="love-2" src="/img/vector-Sb8.png"/></button>
+      <button class="comment_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="speech-VZm" src="/img/speech.png"/></button>
+      <button class="bookmark_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="bookmark-nom" src="/img/bookmark.png"/></button>
+    </div>
+
+  <% } else if (bookmarks.includes(article._id)) { %>
+
+    <input type="hidden" id="liked"  value="false">
+    <input type="hidden" id="bookmarked"  value="true">
+
+    <div class="group-7-e3M">
+      <button class="like_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="love-k6P" src="/img/vector-Sb8.png"/></button>
+      <button class="comment_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="speech-VZm" src="/img/speech.png"/></button>
+      <button class="bookmark_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="bookmark-2" src="/img/bookmark.png"/></button>
+    </div>
+
+    <% } else { %>
+
+      <input type="hidden" id="liked"  value="false">
+      <input type="hidden" id="bookmarked"  value="false">
+
+      <div class="group-7-e3M">
+        <button class="like_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="love-k6P" src="/img/vector-Sb8.png"/></button>
+        <button class="like_btn2" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="speech-VZm" src="/img/speech.png"/></button>
+        <button class="bookmark_btn" style="border: white; outline: none; background: none; width: 3.1621rem; height: 2.4rem; margin-right:1.581rem; "><img id="icon" class="bookmark-nom" src="/img/bookmark.png"/></button>
+      </div>
+
+  <% } %> 
+  
+  
+  <div class="auto-group-7b7r-JXD">
+    <p id="count" class="likes-8FM"><%- likesCount -%> Likes</p>
+    <p class="comments-GcT">3 Comments</p>
+
+    
+
+  </div>
+  <div class="auto-group-3r6t-nqh">
+    <input class="auto-group-e14f-Dw1" name="comment" type="text"placeholder="Write a comment..."/>
+    <div class="auto-group-kgrh-gTD">POST</div>
+  </div>
+  <div class="component-1-5VM">
+    <div class="group-9-fCf">
+      <p class="sourav-opf">Sonam Choki</p>
+      <p class="thanks-for-sharing-this-post-tLK">Well written.</p>
+    </div>
+    <div class="group-8-Jew">
+      <p class="sourav-nq1">Sourav</p>
+      <p class="thanks-for-sharing-this-post-5p7">Thanks for sharing this post.</p>
+    </div>
+    
+  </div> 
+
+  
+  
+
+  <div class="frame-72-QDh">
+    <p class="geekyblog-tef">GeekyBlog</p>
+    <div class="frame-71-b3H">
+      <div class="frame-69-Hgo">
+        <p class="community-QWX">Community</p>
+        <div class="frame-68-hEj">
+          <div class="frame-66-CxB">Twitter</div>
+          <div class="frame-67-qXH">Discord</div>
+          <div class="frame-68-W7d">Github</div>
+        </div>
+      </div>
+      <div class="frame-70-9RV">
+        <p class="explore-gRR">Explore</p>
+        <div class="frame-68-kTD">
+          <div class="frame-66-mt7">Feeds</div>
+          <div class="frame-67-ref">Top Articles</div>
+          <div class="frame-68-6ou">About</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input type="hidden" id="article_id"  value="<%= article._id %>">
+  <input type="hidden" id="article_slug"  value="<%= article.slug %>">
+
+  
+  
+</div>
+
+<script type="module" src="../js/show.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+
+</body>

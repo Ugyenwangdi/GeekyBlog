@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>GeekyBlog</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro%3A300%2C400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="/css/home.css"/>
+</head>
+<body>
+
+
+<div class="home-private-6wY">
+
+  <section >
+
+  </section>
+  
+
+  <div class="navbar-private-8dL">
+    <a href="/" class="geekyblog-adk">GeekyBlog</a>
+    <div class="group-4-GmU">
+      <div class="frame-89-1DG">
+        <img class="search-vr2" src="/img/search-mUa.png"/>
+        <input class="search-for-articles-rjg" type="text"/>
+      </div>
+    </div>
+    <div class="frame-4-jHg">
+      <!-- <div class="frame-6-5MY">
+        <img class="pencil-bqg" src="/img/pencil-F5p.png"/>
+        <a href="/articles/new" class="write-84v">Write</a>
+      </div>
+      <img class="user-2AJ" src="/img/user-B7c.png"/> -->
+    </div>
+  </div>
+  <div class="auto-group-xe8n-iJ2">
+    <div class="auto-group-wwiv-Dka">
+      <div class="frame-90-9PL">
+        <div class="frame-91-4WJ">
+          <a href="/feeds" class="feeds-MVQ">Feeds</a>
+          <a href="/top" class="top-pGW">Top</a>
+          
+          <% if (''.includes(obj)) { %>
+            <a href="/bookmarks" class="bookmarks-kR4">Bookmarks</a>
+
+          <% } else { %>
+            <a href="/api/v1/users/bookmarks/<%= obj %>" class="bookmarks-kR4">Bookmarks</a>
+
+            <% } %> 
+          <a href="/about" class="about-tXG">About </a>
+          <div class="logout"></div>
+        </div>
+      </div>
+      <div class="auto-group-yqzq-Pyp">
+        <div class="frame-26-9CJ">
+          <div class="group-2-sPC">
+            <div class="rectangle-4-CRU">
+            </div>
+            <p class="helping-people-in-tech-to-share-knowledge-easily-v6a">Helping People in Tech to Share Knowledge Easily!</p>
+          </div>
+          <p class="platform-where-developers-tech-lovers-and-content-creators-can-connect-to-share-about-challenges-overcome-in-solving-a-problem-or-sharing-their-journey-of-becoming-an-expert-at-what-they-do-cEJ">Platform where developers, tech lovers, and content creators can connect to share about challenges, overcome in solving a problem or sharing their journey of becoming an expert at what they do.</p>
+        </div>
+        <div class="frame-23-dfC">
+          <div class="frame-8-yyx">
+            <p class="recent-articles-YGN">Recent Articles</p>
+            <div class="frame-7-51Q">
+              <a href="/feeds" class="see-all-articles-19x">See all articles</a>
+              <a href="/feeds"><img class="frame-XPC" src="/img/frame.png"/></a>
+            </div>
+          </div>
+          <div class="auto-group-ajpt-4P8">
+            <div class="frame-20-1ZG">
+
+                <% articles.forEach(article => { %>
+
+                    <div class="frame-15-8Nz">
+                        <div class="frame-4-TRG">
+                          <div class="frame-5-PJv">
+                            <img class="avatar-jNn" src="/img/users/<%= article.user.photo %>"/>
+                          </div>
+
+                          <% if (typeof article.user !== 'undefined' && typeof article.user.name !== 'undefined') { %>
+                          <div class="frame-6-Py8"><%= article.user.name %></div>
+
+            
+                        <% } else { %>
+                            <div class="frame-6-Py8">Username</div>
+
+                        <% } %> 
+                        </div>
+                        <div class="frame-26-TCJ">
+                          <a href="articles/<%= article.slug %>" class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-c5C"><%= article.title %></a>
+                          <p class="item-01-10-2022-7ne"><%= article.createdAt.toLocaleDateString() %> </p>
+                        </div>
+                        <p class="molestie-ac-feugiat-sed-lectus-vestibulum-mauris-sit-amet-massa-vitae-tortor-vel-elit-scelerisque-mauris-pellentesque-pulvinar-pellentesque-habitant-nisl-condimentum-id-venenatis-a-condimentum-T5p"><%= article.description %> </p>
+
+                    <% if (JSON.stringify(obj) === JSON.stringify(article.user['_id'])) { %>
+                        <div class="operations">          
+                          <a href="articles/edit/<%= article.id %>" class="btn btn-info">Edit</a>
+              
+                          <form action="/articles/<%= article.id %>?_method=DELETE" method="POST" class="d-inline">
+                              <button type="submit" class="btn btn-danger">Delete</button>
+                          </form>
+                      </div>
+            
+                    <% } else { %>
+                      <div class="frame-6-4Rk"></div>
+                    <% } %> 
+                
+
+                </div>
+
+                <% }) %>
+              
+
+
+            </div>
+            <div class="frame-20-Jg6">
+
+                <% articles2.forEach(article => { %>
+
+                    <div class="frame-15-dyG">
+                        <div class="frame-4-NAA">
+                          <div class="frame-5-hTL">
+                            <img class="avatar-rb8" src="/img/users/<%= article.user.photo %>"/>
+                          </div>
+
+                          <% if (typeof article.user !== 'undefined' && typeof article.user.name !== 'undefined') { %>
+                            <div class="frame-6-ZkS"><%= article.user.name %></div>
+              
+                          <% } else { %>
+                            <div class="frame-6-ZkS">Username</div>  
+                          <% } %> 
+                        </div>
+                        <div class="frame-26-qxr">
+                          <a href="articles/<%= article.slug %>" class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-cCv"><%= article.title %></a>
+                          <p class="item-01-10-2022-jHY"><%= article.createdAt.toLocaleDateString() %></p>
+                        </div>
+                        <p class="molestie-ac-feugiat-sed-lectus-vestibulum-mauris-sit-amet-massa-vitae-tortor-vel-elit-scelerisque-mauris-pellentesque-pulvinar-pellentesque-habitant-nisl-condimentum-id-venenatis-a-condimentum-4qc"><%= article.description %></p>
+                    
+                        <% if (JSON.stringify(obj) === JSON.stringify(article.user['_id'])) { %>
+                            <div class="operations">          
+                              <a href="articles/edit/<%= article.id %>" class="btn btn-info">Edit</a>
+                  
+                              <form action="/articles/<%= article.id %>?_method=DELETE" method="POST" class="d-inline">
+                                  <button type="submit" class="btn btn-danger">Delete</button>
+                              </form>
+                          </div>
+                
+                        <% } else { %>
+                          <div class="frame-6-4Rk"></div>
+                        <% } %> 
+                    
+                    </div>
+
+                <% }) %>
+              
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="frame-51-EJA">
+      <p class="top-articles-9vv">Top Articles</p>
+      <div class="review-list-6rA">
+
+        <% top.forEach(article => { %>
+
+
+        <div class="review--raS">
+
+          <div class="frame-4-yQA">
+            <div class="frame-5-WQ6">
+              <img class="avatar-rTx" src="/img/users/<%= article.user.photo %>"/>
+            </div>
+
+            <% if (typeof article.user !== 'undefined' && typeof article.user.name !== 'undefined') { %>
+                <div class="frame-6-Ybg"><%= article.user.name %></div>
+
+  
+              <% } else { %>
+                <div class="frame-6-Ybg">Username</div>
+
+
+              <% } %> 
+          </div>
+          <div class="frame-92-pZC">
+            <div class="frame-27-yS6">
+              <a href="articles/<%= article.slug %>" class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-jAN"><%= article.title %></a>
+            </div>
+          </div>
+          <p class="item-01-10-2022-yqQ"><%= article.createdAt.toLocaleDateString() %> </p>
+          <p class="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-varius-nisi-et-mauris-iaculis-sed-elementum-magna-suscipit-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-K8a"><%= article.description %> </p>
+        
+          <% if (JSON.stringify(obj) === JSON.stringify(article.user['_id'])) { %>
+            <div class="operations">          
+              <a href="articles/edit/<%= article.id %>" class="btn btn-info">Edit</a>
+  
+              <form action="/articles/<%= article.id %>?_method=DELETE" method="POST" class="d-inline">
+                  <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+          </div>
+
+        <% } else { %>
+          <div class="frame-6-4Rk"></div>
+        <% } %> 
+        
+        </div>
+
+        <% }) %>
+
+      </div>
+
+      
+    </div>
+    <div class="frame-72-Hy8">
+      <p class="geekyblog-2vi">GeekyBlog</p>
+      <div class="frame-71-mtJ">
+        <div class="frame-69-Y8N">
+          <p class="community-hGA">Community</p>
+          <div class="frame-68-dfc">
+            <div class="frame-66-Bh8">Twitter</div>
+            <div class="frame-67-UgE">Discord</div>
+            <div class="frame-68-PYJ">Github</div>
+          </div>
+        </div>
+        <div class="frame-70-tjx">
+          <p class="explore-THG">Explore</p>
+          <div class="frame-68-Pwc">
+            <div class="frame-66-xE2">Feeds</div>
+            <div class="frame-67-Fyp">Top Articles</div>
+            <div class="frame-68-mxA">About</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="./js/home.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.2/axios.min.js"></script>
+
+</body>

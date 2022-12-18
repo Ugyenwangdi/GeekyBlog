@@ -1,0 +1,1278 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.home-public-QMQ {
+  width: 100%;
+  height: 296.8rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+}
+.home-public-QMQ .component-2-cyG {
+  box-sizing: border-box;
+  padding: 3.6rem 11.6rem 4.4rem 11.6rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen {
+  margin-bottom: 3.6rem;
+  width: 100%;
+  height: 5.7rem;
+  display: flex;
+  column-gap: 4.85rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .geekyblog-sRL {
+  cursor: pointer;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .group-5-xxa {
+  width: 68rem;
+  height: 100%;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .group-5-xxa .frame-89-VSi {
+  box-sizing: border-box;
+  padding: 1.35rem 37.4rem 1.15rem 1.1rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #cfcfcf;
+  background-color: #f2f3f4;
+  border-radius: 1rem;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .group-5-xxa .frame-89-VSi .search-zeN {
+  margin-right: 4.7rem;
+  width: 3.1rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .group-5-xxa .frame-89-VSi .search-for-articles-XeJ {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  width: 57rem;
+  background: #f2f3f4;
+  border-radius: 4px;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .frame-4-9xW {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .frame-4-9xW .frame-6-78e {
+  margin-right: 2.4rem;
+  width: 11.3rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .frame-5-nen .frame-4-9xW .frame-3-Ln6 {
+  width: 13.9rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe {
+  margin: 0rem 6.35rem 1.7rem 0rem;
+  width: calc(100% - 6.35rem);
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .frame-90-Y7U {
+  margin-right: 9.15rem;
+  box-sizing: border-box;
+  padding: 0.9rem 1.4rem 0rem 1.1rem;
+  width: 18rem;
+  height: 63.2rem;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem rgba(207, 207, 207, 0.5);
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .frame-90-Y7U .frame-91-DDc {
+  box-sizing: border-box;
+  padding: 3rem 0.5rem 42.7rem 0.5rem;
+  width: 100%;
+  height: 63.2rem;
+  overflow: hidden;
+  position: relative;
+  row-gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .frame-90-Y7U .frame-91-DDc .feeds-u6S {
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .frame-90-Y7U .frame-91-DDc .top-RqU {
+  margin-left: 0.1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .frame-90-Y7U .frame-91-DDc .bookmarks-Xdc {
+  margin-left: 0.1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .frame-90-Y7U .frame-91-DDc .about-psc {
+  margin-left: 0.1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk {
+  margin-top: 6.4rem;
+  width: 87.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-26-2yg {
+  margin: 0rem 3.694rem 7.8rem 3.8rem;
+  width: calc(100% - 7.4936rem);
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-26-2yg .group-2-kug {
+  margin-bottom: 3.5rem;
+  width: 77.1564rem;
+  height: 26rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-26-2yg .group-2-kug .rectangle-4-6Tk {
+  width: 50.4548rem;
+  height: 4.7038rem;
+  position: absolute;
+  left: 26.7015rem;
+  top: 7.1709rem;
+  background-color: #d4d5f6;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-26-2yg .group-2-kug .helping-people-in-tech-to-share-knowledge-easily-Bk6 {
+  width: 74.4rem;
+  height: 26rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.3500000238;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-26-2yg .platform-where-developers-tech-lovers-and-content-creators-can-connect-to-share-about-challenges-overcome-in-solving-a-problem-or-sharing-their-journey-of-becoming-an-expert-at-what-they-do-fvA {
+  width: 100%;
+  max-width: 79.7rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.4550000971;
+  color: #637286;
+  font-family: Readex Pro, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .frame-8-sFY {
+  width: 100%;
+  height: 7.1rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .frame-8-sFY .recent-articles-C2v {
+  margin-right: 27.7rem;
+  font-size: 5.2rem;
+  font-weight: 600;
+  line-height: 1.350000088;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .frame-8-sFY .frame-7-X5C {
+  margin: 1.9rem 0;
+  box-sizing: border-box;
+  padding-right: 0.3rem;
+  height: calc(100% - 3.8rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .frame-8-sFY .frame-7-X5C .see-all-articles-rNN {
+  margin-right: 1.7rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.3500000636;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .frame-8-sFY .frame-7-X5C .frame-9cN {
+  margin-bottom: 0.1rem;
+  width: 1.8rem;
+  height: 0.75rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG {
+  box-sizing: border-box;
+  padding-top: 4.7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 {
+  margin: 0rem 0.3rem 4.8rem 0rem;
+  width: calc(100% - 0.3rem);
+  height: 42.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ {
+  margin-right: 4rem;
+  box-sizing: border-box;
+  padding: 2.75rem 3.5rem 2.6rem 2.8rem;
+  width: 41.5rem;
+  height: 100%;
+  border: solid 0.1rem #dee4ed;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .frame-4-sRt {
+  margin: 0rem 12rem 2.75rem 0rem;
+  width: calc(100% - 12rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .frame-4-sRt .frame-5-BxN {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .frame-4-sRt .frame-5-BxN .avatar-XFY {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .frame-4-sRt .frame-6-bWJ {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .frame-26-rh8 {
+  margin-bottom: 2.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .frame-26-rh8 .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-cRQ {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .frame-26-rh8 .item-01-10-2022-hhk {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-15-YuQ .molestie-ac-feugiat-sed-lectus-vestibulum-mauris-sit-amet-massa-vitae-tortor-vel-elit-scelerisque-mauris-pellentesque-pulvinar-pellentesque-habitant-nisl-condimentum-id-venenatis-a-condimentum-2V8 {
+  max-width: 35.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4550000297;
+  color: #637286;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp {
+  box-sizing: border-box;
+  padding: 2.75rem 3.5rem 2.6rem 2.8rem;
+  width: 41.5rem;
+  height: 100%;
+  border: solid 0.1rem #dee4ed;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .frame-4-nsc {
+  margin: 0rem 12rem 2.75rem 0rem;
+  width: calc(100% - 12rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .frame-4-nsc .frame-5-Kce {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .frame-4-nsc .frame-5-Kce .avatar-5Lv {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .frame-4-nsc .frame-6-BPx {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .frame-26-s1t {
+  margin-bottom: 2.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .frame-26-s1t .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-php {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .frame-26-s1t .item-01-10-2022-Xs8 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-E82 .frame-17-4Rp .molestie-ac-feugiat-sed-lectus-vestibulum-mauris-sit-amet-massa-vitae-tortor-vel-elit-scelerisque-mauris-pellentesque-pulvinar-pellentesque-habitant-nisl-condimentum-id-venenatis-a-condimentum-ewk {
+  max-width: 35.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4550000297;
+  color: #637286;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 {
+  margin-right: 0.3rem;
+  width: calc(100% - 0.3rem);
+  height: 42.3rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp {
+  margin-right: 4rem;
+  box-sizing: border-box;
+  padding: 2.75rem 3.5rem 2.6rem 2.8rem;
+  width: 41.5rem;
+  border: solid 0.1rem #dee4ed;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .frame-4-X8N {
+  margin: 0rem 12rem 2.75rem 0rem;
+  width: calc(100% - 12rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .frame-4-X8N .frame-5-SFL {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .frame-4-X8N .frame-5-SFL .avatar-acS {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .frame-4-X8N .frame-6-Uhp {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .frame-26-w5c {
+  margin-bottom: 2.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .frame-26-w5c .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-VN2 {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .frame-26-w5c .item-01-10-2022-PyC {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-15-1fp .molestie-ac-feugiat-sed-lectus-vestibulum-mauris-sit-amet-massa-vitae-tortor-vel-elit-scelerisque-mauris-pellentesque-pulvinar-pellentesque-habitant-nisl-condimentum-id-venenatis-a-condimentum-L7k {
+  max-width: 35.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4550000297;
+  color: #637286;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N {
+  box-sizing: border-box;
+  padding: 2.75rem 3.5rem 2.6rem 2.8rem;
+  width: 41.5rem;
+  height: 100%;
+  border: solid 0.1rem #dee4ed;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .frame-4-7Gv {
+  margin: 0rem 12rem 2.75rem 0rem;
+  width: calc(100% - 12rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .frame-4-7Gv .frame-5-F8E {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .frame-4-7Gv .frame-5-F8E .avatar-PkE {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .frame-4-7Gv .frame-6-W4A {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .frame-26-AuQ {
+  margin-bottom: 2.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .frame-26-AuQ .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-8LS {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .frame-26-AuQ .item-01-10-2022-EPU {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .auto-group-xmwv-RYe .auto-group-zfly-Vyk .frame-23-i7k .auto-group-ultd-soG .frame-20-634 .frame-17-B8N .molestie-ac-feugiat-sed-lectus-vestibulum-mauris-sit-amet-massa-vitae-tortor-vel-elit-scelerisque-mauris-pellentesque-pulvinar-pellentesque-habitant-nisl-condimentum-id-venenatis-a-condimentum-Myt {
+  max-width: 35.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4550000297;
+  color: #637286;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 {
+  margin: 0rem 0rem 6.4rem 20.8rem;
+  box-sizing: border-box;
+  padding: 6.4rem 6.55rem 5.6rem 6.55rem;
+  width: 100rem;
+  height: 94.7rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f1f5fa 100%);
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa {
+  width: 100%;
+  height: 100%;
+  row-gap: 3.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .top-articles-eLi {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY {
+  width: 100%;
+  height: 34.5rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a {
+  margin-right: 3.9rem;
+  box-sizing: border-box;
+  padding: 1.8rem 1.8rem 4.2rem 3rem;
+  width: 41.5rem;
+  height: 100%;
+  border: solid 0.1rem #727272;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-4-fFp {
+  margin: 0rem 13.5rem 2rem 0rem;
+  width: calc(100% - 13.5rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-4-fFp .frame-5-bQN {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-4-fFp .frame-5-bQN .avatar-YKc {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-4-fFp .frame-6-r5Q {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-92-7X8 {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 5.9rem;
+  overflow: hidden;
+  position: relative;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-92-7X8 .frame-27-3va {
+  width: 32.2rem;
+  height: 9.9rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-92-7X8 .frame-27-3va .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-CYa {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .frame-92-7X8 .frame-27-3va .item-01-10-2022-iWv {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .item-01-10-2022-TDc {
+  margin-bottom: 1.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--92a .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-varius-nisi-et-mauris-iaculis-sed-elementum-magna-suscipit-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-nWn {
+  max-width: 36.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4666666667;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp {
+  box-sizing: border-box;
+  padding: 1.8rem 1.8rem 4.2rem 3rem;
+  width: 41.5rem;
+  height: 100%;
+  border: solid 0.1rem #727272;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-4-YPU {
+  margin: 0rem 13.5rem 2rem 0rem;
+  width: calc(100% - 13.5rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-4-YPU .frame-5-sRk {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-4-YPU .frame-5-sRk .avatar-RTG {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-4-YPU .frame-6-WzW {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-92-CcS {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 5.9rem;
+  overflow: hidden;
+  position: relative;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-92-CcS .frame-27-x5p {
+  width: 32.2rem;
+  height: 9.9rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-92-CcS .frame-27-x5p .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-W7L {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .frame-92-CcS .frame-27-x5p .item-01-10-2022-pNv {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .item-01-10-2022-MNr {
+  margin-bottom: 1.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-BbY .review--cVp .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-varius-nisi-et-mauris-iaculis-sed-elementum-magna-suscipit-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-tdg {
+  max-width: 36.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4666666667;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn {
+  width: 100%;
+  height: 34.5rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA {
+  margin-right: 3.9rem;
+  box-sizing: border-box;
+  padding: 1.8rem 1.8rem 4.2rem 3rem;
+  width: 41.5rem;
+  height: 100%;
+  border: solid 0.1rem #727272;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-4-Cnn {
+  margin: 0rem 13.5rem 2rem 0rem;
+  width: calc(100% - 13.5rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-4-Cnn .frame-5-8gS {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-4-Cnn .frame-5-8gS .avatar-se2 {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-4-Cnn .frame-6-aoL {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-92-GAN {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 5.9rem;
+  overflow: hidden;
+  position: relative;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-92-GAN .frame-27-CZp {
+  width: 32.2rem;
+  height: 9.9rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-92-GAN .frame-27-CZp .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-MBp {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .frame-92-GAN .frame-27-CZp .item-01-10-2022-SDG {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .item-01-10-2022-yDC {
+  margin-bottom: 1.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--5iA .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-varius-nisi-et-mauris-iaculis-sed-elementum-magna-suscipit-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-Hza {
+  max-width: 36.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4666666667;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG {
+  box-sizing: border-box;
+  padding: 1.8rem 1.8rem 4.2rem 3rem;
+  width: 41.5rem;
+  height: 100%;
+  border: solid 0.1rem #727272;
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-4-Fpv {
+  margin: 0rem 13.5rem 2rem 0rem;
+  width: calc(100% - 13.5rem);
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-4-Fpv .frame-5-acJ {
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 3.1rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-4-Fpv .frame-5-acJ .avatar-882 {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: relative;
+  background-size: 100% 148.837%;
+  background-image: url('../img/avatar.png');
+  border-radius: 2rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-4-Fpv .frame-6-S8i {
+  margin: 0.05rem 0;
+  width: 15.6rem;
+  height: calc(100% - 0.1rem);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.1rem #dee4ed;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-92-6DG {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 5.9rem;
+  overflow: hidden;
+  position: relative;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-92-6DG .frame-27-qwY {
+  width: 32.2rem;
+  height: 9.9rem;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-92-6DG .frame-27-qwY .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-o7g {
+  margin-bottom: 1.5rem;
+  max-width: 32.2rem;
+  cursor: pointer;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3500000498;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .frame-92-6DG .frame-27-qwY .item-01-10-2022-K62 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .item-01-10-2022-3Xp {
+  margin-bottom: 1.9rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4550000599;
+  color: #1e1e1e;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-53-BT8 .group-14-hAa .review-list-LEn .review--KwG .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nulla-varius-nisi-et-mauris-iaculis-sed-elementum-magna-suscipit-class-aptent-taciti-sociosqu-ad-litora-torquent-per-conubia-nostra-BP8 {
+  max-width: 36.2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4666666667;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 {
+  margin: 0rem 0.1rem 0rem 20.9rem;
+  width: calc(100% - 21rem);
+  height: 22.1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .geekyblog-tRx {
+  margin-right: 15.7rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-69-yyC {
+  margin-right: 6.4rem;
+  width: 30rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-69-yyC .community-Xjp {
+  margin-bottom: 2.4rem;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.4550000704;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-69-yyC .frame-68-U9G {
+  width: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-69-yyC .frame-68-U9G .frame-66-1ut {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-69-yyC .frame-68-U9G .frame-67-K9t {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-69-yyC .frame-68-U9G .frame-68-RTp {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-70-Kp6 {
+  width: 30rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-70-Kp6 .explore-t6W {
+  margin-bottom: 2.4rem;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.4550000704;
+  color: #000000;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-70-Kp6 .frame-68-pkr {
+  width: 100%;
+  row-gap: 1.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-70-Kp6 .frame-68-pkr .frame-66-AZp {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-70-Kp6 .frame-68-pkr .frame-67-Gcr {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}
+.home-public-QMQ .component-2-cyG .frame-72-y46 .frame-71-RRt .frame-70-Kp6 .frame-68-pkr .frame-68-Ay8 {
+  box-sizing: border-box;
+  padding: 0.8rem 0rem 0.7rem 0rem;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4550000191;
+  color: #6d6d6d;
+  font-family: Readex Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #dee4ed;
+  flex-shrink: 0;
+}

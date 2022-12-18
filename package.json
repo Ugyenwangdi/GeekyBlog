@@ -1,0 +1,40 @@
+{
+  "name": "geekyblog",
+  "version": "1.0.1",
+  "description": "to provide a platform for sharing tech related experiences and knowledges so that the new learners can learn from it.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/group065/geeky-blog.git"
+  },
+  "author": "Tshering Wangchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/group065/geeky-blog/issues"
+  },
+  "homepage": "https://gitlab.com/group065/geeky-blog#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dompurify": "^2.4.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsdom": "^20.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "marked": "^4.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.7.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "slugify": "^1.6.5",
+    "util.promisify": "^1.1.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
