@@ -1,5 +1,51 @@
 # Geeky blog
 
+# Installation
+* 1 - clone repo https://github.com/divanov11/Django-2021
+* 2 - create a virtual environment and activate
+*  - pip install virtualenv
+*  - virtualenv envname
+*  - envname\scripts\activate
+* 3 - cd into project "cd django-2021"
+* 4 - pip install -r requirements.txt
+* 5 - python manage.py runserver
+
+
+
+# Features
+* Write/edit/delete article using markdown
+* Show recent, top articles
+* Like post, bookmark post
+* Show my bookmarks
+* Update profile
+
+# Tech Stack
+* HTML, CSS, JavaScript
+* MongoDB
+* Node.js
+* Express
+
+# Home Page
+<img src="home-pub.png">  
+
+
+# Write post
+<img src="write.png">  
+
+
+# All articles
+<img src="all.png">  
+
+# Top Page
+<img src="top.png">  
+
+# Bookmarks
+<img src="bookmarks.png">  
+
+
+# Settings
+<img src="setting.png">  
+
 
 
 ## Getting started
